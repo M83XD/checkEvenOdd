@@ -1,12 +1,12 @@
 <script>
    function checkEvenOdd() {
-      var num = parseInt(prompt("Enter a number:"));
+      var num = parseInt(prompt("Numara gir : "));
       if (num % 2 == 0) {
-         alert(num + " is an even number.");
+         alert(num + " Bu çift sayıdır.");
       } else {
-         alert(num + " is an odd number.");
+         alert(num + " Bu tek sayıdır.");
       }
    }
 </script>
 
-<button onclick="checkEvenOdd()">Click me</button>
+<button onclick="checkEvenOdd()">Tıkla !</button>
